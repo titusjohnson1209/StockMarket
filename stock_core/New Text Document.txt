@@ -1,0 +1,33 @@
+Run elastic search
+run kibana
+
+
+python sentiment.py -k TSLA,Tesla --debug
+
+mining and analyzing Tweets 
+python sentiment.py -f twitteruserids.txt --debug
+
+
+Start mining and analyzing News headlines and following headline links and scraping relevant text on landing page
+
+
+ python sentiment.py -n TSLA --followlinks --debug
+
+
+index in Elasticsearch
+
+
+
+ python stockprice.py -s TSLA --debug
+
+
+
+
+open kibana: localhost:5601
+
+
+
+
+
+
+
